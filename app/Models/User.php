@@ -56,7 +56,7 @@ class User extends Authenticatable
         if ($this->foto !== null) {
             return url('media/user/' . $this->id . '/' . $this->foto);
         } else {
-            return url('media-example/no-image.png');
+            return url('media-example/no-image.jpg');
         }
     }
 }

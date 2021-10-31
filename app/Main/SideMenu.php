@@ -7,8 +7,7 @@ class SideMenu
     /**
      * List of side menu items.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @return array
      */
     public static function menu()
     {
@@ -149,12 +148,12 @@ class SideMenu
                 'title' => 'Users',
                 'sub_menu' => [
                     'users-layout-1' => [
-                        'icon' => '',
-                        'route_name' => 'users-layout-1',
+                        'icon' => 'user',
+                        'route_name' => 'users.index',
                         'params' => [
                             'layout' => 'side-menu'
                         ],
-                        'title' => 'Layout 1'
+                        'title' => 'Usuários'
                     ],
                     'users-layout-2' => [
                         'icon' => '',

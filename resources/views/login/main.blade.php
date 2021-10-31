@@ -1,7 +1,7 @@
 @extends('../layout/' . $layout)
 
 @section('head')
-    <title>Login - Tinker - Tailwind HTML Admin Template</title>
+    <title>Login - {{ env('APP_NAME') }}</title>
 @endsection
 
 @section('content')
